@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="PrimeNumberCheckerTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TextSplitterTests.cs" />
     <Compile Include="WordCounterTests.cs" />
   </ItemGroup>
   <ItemGroup>
