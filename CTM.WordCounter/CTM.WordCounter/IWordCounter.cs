@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace CTM.WordCountCalculator
 {
-    public interface IPrimeNumberChecker
+    public interface IWordCounter
     {
-        bool IsPrime(int number);
+        IDictionary<string, int> CountWords(IEnumerable<string> words);
     }
 }

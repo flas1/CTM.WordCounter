@@ -1,7 +1,7 @@
 ﻿using System;
 //using Microsoft.VisualStudio.TestTools.UnitTesting;
 using NUnit.Framework;
-using CTM.WordCounter;
+using CTM.WordCountCalculator;
 
 namespace CTM.WordCountCalculator.Test
 {
