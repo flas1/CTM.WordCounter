@@ -7,8 +7,8 @@
     <ProjectGuid>{BA45B135-E1CE-4E3E-8020-501CECF7029F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CTM.WordCountCalculator</RootNamespace>
-    <AssemblyName>CTM.WordCountCalculator</AssemblyName>
+    <RootNamespace>CTM.WordCounterCalculator</RootNamespace>
+    <AssemblyName>CTM.WordCounterCalculator</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

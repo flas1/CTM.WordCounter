@@ -13,7 +13,7 @@ namespace CTM.WordCountCalculator
             if (string.IsNullOrWhiteSpace(text))
                 return new List<string>();
 
-            var charsToRemove = text.Where(i => !char.IsLetterOrDigit(i) && i != ' ').Distinct().ToList(); // find non-alphanumeric characters
+            var charsToRemove = text.Where(i => !char.IsLetterOrDigit(i) && i != ' ' && i != '\'').Distinct().ToList(); // find non-alphanumeric characters
             foreach (var character in charsToRemove)
             {
                 text = text.Replace(character, ' ');

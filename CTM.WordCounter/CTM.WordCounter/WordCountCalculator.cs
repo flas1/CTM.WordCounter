@@ -15,6 +15,13 @@ namespace CTM.WordCountCalculator
         private readonly Dictionary<int, bool> primeCheckResults = new Dictionary<int, bool>();
         private readonly List<CountedWord> countedWords = new List<CountedWord>();
 
+        public WordCountCalculator()
+        {
+            textSplitter = new TextSplitter();
+            wordCounter = new WordCounter();
+            primeChecker = new PrimeNumberChecker();
+        }
+
         public WordCountCalculator(ITextSplitter textSplitter, IWordCounter wordCounter, IPrimeNumberChecker primeChecker)
         {
             this.textSplitter = textSplitter;
