@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace CTM.WordCountCalculator
 {
-    public interface ITextSplitter
+    public class CountedWord
     {
-        IEnumerable<string> SanitizeAndSplitIntoWords(string text);
+        public string Word { get; set; }
+
+        public int Count { get; set; }
+
+        public bool IsPrime { get; set; }
     }
 }

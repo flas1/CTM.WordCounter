@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CTM.WordCounter
+namespace CTM.WordCountCalculator
 {
     public class TextSplitter : ITextSplitter
     {

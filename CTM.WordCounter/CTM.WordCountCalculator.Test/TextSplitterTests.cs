@@ -1,10 +1,5 @@
-﻿using CTM.WordCounter;
-using NUnit.Framework;
-using System;
-using System.Collections.Generic;
+﻿using NUnit.Framework;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CTM.WordCountCalculator.Test
 {

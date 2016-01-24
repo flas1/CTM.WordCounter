@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace CTM.WordCountCalculator
 {
-    public interface ITextSplitter
+    public interface IWordCountCalculator
     {
-        IEnumerable<string> SanitizeAndSplitIntoWords(string text);
+        IEnumerable<CountedWord> CountedWords { get; }
+
+        
+        void CalculateAndUpdateWordCount(string text);
     }
 }
