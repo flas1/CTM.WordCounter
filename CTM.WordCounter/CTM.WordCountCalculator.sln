@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CTM.WordCounterCalculator", "CTM.WordCounter\CTM.WordCounterCalculator.csproj", "{BA45B135-E1CE-4E3E-8020-501CECF7029F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CTM.WordCountCalculator.Test", "CTM.WordCountCalculator.Test\CTM.WordCountCalculator.Test.csproj", "{2E104D3E-1071-496B-B84B-4E4A5B2A9B18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA45B135-E1CE-4E3E-8020-501CECF7029F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA45B135-E1CE-4E3E-8020-501CECF7029F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA45B135-E1CE-4E3E-8020-501CECF7029F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA45B135-E1CE-4E3E-8020-501CECF7029F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E104D3E-1071-496B-B84B-4E4A5B2A9B18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E104D3E-1071-496B-B84B-4E4A5B2A9B18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E104D3E-1071-496B-B84B-4E4A5B2A9B18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E104D3E-1071-496B-B84B-4E4A5B2A9B18}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
