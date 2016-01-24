@@ -10,7 +10,19 @@ namespace CTM.WordCounter
     {
         public bool IsPrime(int number)
         {
-            throw new NotImplementedException();
+            if (number > 1)
+            {
+                var divisorLimit = (int)Math.Floor(Math.Sqrt(number)); 
+                for (int i = 2; i <= divisorLimit; i++)
+                {
+                    if (number % i == 0)
+                        return false;
+                }
+
+                return true;
+            }
+
+            return false;
         }
     }
 }

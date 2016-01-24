@@ -19,7 +19,7 @@ namespace CTM.WordCountCalculator.Test
         public void IsPrimeReturnsFalseForNonPrimeNumbersTest([Values(-1, 0, 1, 4, 15, 21, 30, 333, 34535343)]int numberToCheck)
         {
             var checker = new PrimeNumberChecker();
-            Assert.IsTrue(checker.IsPrime(numberToCheck));
+            Assert.IsFalse(checker.IsPrime(numberToCheck));
         }
     }
 }
