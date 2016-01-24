@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CTM.WordCountCalculator.Tes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CTM.WordCounterConsoleApp", "CTM.WordCounterConsoleApp\CTM.WordCounterConsoleApp.csproj", "{562D94A1-C421-414E-B647-271C36E9AE39}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CTM.WordCounterAlternateConsoleApp", "CTM.WordCounterAlternateConsoleApp\CTM.WordCounterAlternateConsoleApp.csproj", "{0ABD1769-A66C-422C-B08B-C1859ADB0EDC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{562D94A1-C421-414E-B647-271C36E9AE39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{562D94A1-C421-414E-B647-271C36E9AE39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{562D94A1-C421-414E-B647-271C36E9AE39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0ABD1769-A66C-422C-B08B-C1859ADB0EDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ABD1769-A66C-422C-B08B-C1859ADB0EDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ABD1769-A66C-422C-B08B-C1859ADB0EDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ABD1769-A66C-422C-B08B-C1859ADB0EDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
